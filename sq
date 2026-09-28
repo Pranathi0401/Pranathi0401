@@ -1,0 +1,4 @@
+Description
+                    
+                    
+In a bustling corporate environment, data analysts have been tasked with delving into the workforce dynamics across various departments within the company. Their quest begins with a meticulously crafted SQL query, meticulously designed to unveil the distribution of employees across different departments.The result should have the following columns:  Department_name    Employee_CountDepartment_name -  name of the departmentEmployee_Count  - total number of employees in each departmentThe result should be sorted in ascending order by Department_name.
