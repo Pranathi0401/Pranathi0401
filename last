@@ -1,0 +1,53 @@
+Description
+                    
+                    
+
+While spending their summer vacation, Scott and his sister Jerlin decided to create a fun number pattern using magic cards. Scott handed Jerlin green cards with positive numbers and red cards with negative numbers. However, there was a twist: they had to alternate between green and red cards, and any remaining cards were to be added at the end.
+
+Create
+a Java Program to help Jerlin in creating this new number pattern.
+
+Constraints:If the total number of green or red cards is zero or less than zero, print "<number> is an invalid number" and then terminate the program.If
+	the embedded green card number is negative or zero, print "Oops
+	Green
+	card should not contain <number>" and then terminate the program.If
+	the embedded red card number is positive or zero, print "Oops
+	Red
+	card should not contain <number>"and then terminate the program.Finally, print the newly formed pattern as "The new number pattern is <newPattern>".Note:Do not edit the existing code template.In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.Implement the business requirements within the main method. Please do not change the class name.Please do not use System.exit(0); to terminate the program.Sample
+input and output 1Enter
+the total number of Green cards
+
+5Enter
+the embedded numbers in the Green Card
+
+4
+
+6
+
+593
+
+Enter
+the total number of Red cards
+
+3
+
+Enter
+the embedded numbers in the Red Card
+
+-4
+
+-5
+
+-6
+
+The
+new number pattern is 4 -4 6 -5 5 -6 9 3Sample input and output 2Enter the total number of Green cards2Enter the embedded numbers in the Green Card39Enter the total number of Red cards2Enter the embedded numbers in the Red Card0Oops Red card should not contain 0Sample
+input and output 3
+
+Enter
+the total number of Green cards
+
+-1
+
+-1
+is an invalid number
